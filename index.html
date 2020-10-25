@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago</title>
+</head>
+<body>
+    <main class="container">
+        <form action="">
+            <div class="subcontainer">
+                <label for="credit-num">Número de tarjeta de crédito</label>
+                <input type="number" name="credit-num" id="credit-number">
+            </div>
+            <div class="subcontainer">
+                <label for="title-name">Nombre completo del titular</label>
+                <input type="text" name="title-name" id="title-name">
+            </div>
+            <div class="subcontainer">
+                <label for="date">Selector del mes en números</label>
+                <input type="date" name="date" id="date" min="2020-01-01" max="2030-01-01">
+            </div>
+            <div class="subcontainer">
+                <label for="ccv">CCV</label>
+                <input type="password" name="password" id="ccv">
+            </div>
+            <div class="subcontainer">
+                <input type="submit" name="paid" id="paid" value="Pagar">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
